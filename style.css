@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #222222;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+    padding: 12px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.circular img {
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+    border: dashed 2px black;
+}
